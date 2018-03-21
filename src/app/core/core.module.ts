@@ -8,6 +8,7 @@ import { HeaderComponent } from './layout/header/header.component';
 
 import { SharedModule } from '../shared/shared.module';
 import { MaterialComponentModule } from '../material-components.module';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,6 @@ import { MaterialComponentModule } from '../material-components.module';
   exports: [
     CoreComponent
   ],
-  declarations: [CoreComponent, LayoutComponent, HeaderComponent]
+  declarations: [CoreComponent, LayoutComponent, HeaderComponent, FooterComponent]
 })
 export class CoreModule { }
